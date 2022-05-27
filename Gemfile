@@ -60,3 +60,5 @@ gem "devise"
 gem "enum_help"
 
 gem "kaminari"
+
+gem "rubocop-airbnb"
