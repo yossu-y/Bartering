@@ -62,3 +62,9 @@ gem "enum_help"
 gem "kaminari"
 
 gem "rubocop-airbnb"
+
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+
+gem "refile-mini_magick"
+
+gem 'haml-rails'

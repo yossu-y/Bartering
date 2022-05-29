@@ -9,6 +9,10 @@ Rails.application.routes.draw do
   get "homes/about" => "homes#about", as: "about"
 
   resources :users, only: [:show, :index, :edit]
+  
+  resources :items, only: [:index, :new, :create]do
+    resource :item_image
+  end
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
